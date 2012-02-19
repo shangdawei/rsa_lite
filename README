@@ -1,0 +1,28 @@
+Light RSA implementation in C with the only goal of understanding
+the algorithm a little better.
+
+No big deal.
+
+Compiling & linking:
+
+  Building help (it's just this very help)
+    $ make help
+
+  Build the application:
+    $ make all
+
+  Clean object files:
+    $ make clean-obj
+
+  Clean object and binary files:
+    $ make clean
+
+  There is no installer and there never will be.
+
+
+Build errors:
+
+  In order to build you must make the directories `bin/'
+  and `obj/' at the same level as `include/' and `src/',
+  or else the compilation won't work.
+
